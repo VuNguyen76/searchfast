@@ -1,0 +1,246 @@
+# ===================================
+# FastFileSearch - Git Ignore File
+# ===================================
+
+# ==================
+# Test Files
+# ==================
+*test*
+*Test*
+*TEST*
+test_*
+*_test.*
+*_test_*
+test/
+tests/
+testing/
+**/test/**
+**/tests/**
+**/testing/**
+
+# Test executables
+*.test
+*.test.exe
+test.exe
+test_*.exe
+*_test.exe
+
+# Test data and logs
+test_data/
+test_logs/
+*.test.log
+test_*.log
+
+# ==================
+# Markdown Files
+# ==================
+*.md
+*.MD
+*.markdown
+*.MARKDOWN
+docs/
+documentation/
+README*
+readme*
+CHANGELOG*
+changelog*
+HISTORY*
+history*
+LICENSE*
+license*
+
+# ==================
+# Build Files
+# ==================
+build/
+Build/
+BUILD/
+bin/
+Bin/
+BIN/
+obj/
+Obj/
+OBJ/
+out/
+Out/
+OUT/
+target/
+Target/
+TARGET/
+
+# Object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Executables (except main app)
+*.exe
+!FastFileSearch.exe
+*.app
+*.dSYM/
+
+# ==================
+# Debug Files
+# ==================
+*debug*
+*Debug*
+*DEBUG*
+debug/
+Debug/
+DEBUG/
+*.pdb
+*.ilk
+*.idb
+*.dSYM
+*.gdb_history
+
+# ==================
+# IDE Files
+# ==================
+# Visual Studio
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Qt Creator
+*.pro.user*
+*.qbs.user*
+*.qmlproject.user*
+
+# Code::Blocks
+*.cbp
+*.layout
+*.depend
+
+# Dev-C++
+*.dev
+
+# ==================
+# Compiler Files
+# ==================
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Make
+*.make
+*.mk
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+
+# ==================
+# Temporary Files
+# ==================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+*.LOG
+logs/
+log/
+
+# Cache files
+*.cache
+cache/
+.cache/
+
+# ==================
+# Package Files
+# ==================
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# ==================
+# System Files
+# ==================
+# Windows
+*.lnk
+*.url
+*.ini
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ==================
+# Custom Exclusions
+# ==================
+# Specific to FastFileSearch
+demo*
+Demo*
+DEMO*
+sample*
+Sample*
+SAMPLE*
+example*
+Example*
+EXAMPLE*
+
+# Performance test files
+perf_*
+benchmark_*
+profile_*
+
+# Configuration backups
+*.conf.bak
+*.config.bak
+config_backup*
+
+# ==================
+# Include Exceptions
+# ==================
+# Force include main application
+!FastFileSearch.exe
+!FastFileSearch.cpp
+
+# Force include essential docs (if needed)
+# !README.md
+# !LICENSE

@@ -1,0 +1,141 @@
+================================================================================
+FastFileSearch Security Scan Report
+================================================================================
+
+Total Issues Found: 41
+
+Severity Breakdown:
+  HIGH: 0
+  MEDIUM: 41
+  LOW: 0
+  INFO: 0
+
+Dependency Scan:
+----------------------------------------
+  [MEDIUM] Version not specified for Qt6. Recommend >= 6.5.0
+
+  [MEDIUM] Version not specified for SQLite3. Recommend >= 3.40.0
+
+Security Issues:
+----------------------------------------
+  [MEDIUM] No message
+    File: test_gtest_simple.cpp
+    Line: 161
+
+  [MEDIUM] No message
+    File: tests\integration_test_full_workflow.cpp
+    Line: 228
+
+  [MEDIUM] No message
+    File: tests\test_types.cpp
+    Line: 178
+
+  [MEDIUM] No message
+    File: tests\test_types.cpp
+    Line: 191
+
+  [MEDIUM] No message
+    File: tests\test_types.cpp
+    Line: 197
+
+  [MEDIUM] File is world-writable
+    File: CMakeLists.txt
+
+  [MEDIUM] File is world-writable
+    File: README.md
+
+  [MEDIUM] File is world-writable
+    File: System-arc.md
+
+  [MEDIUM] File is world-writable
+    File: test_basic.cpp
+
+  [MEDIUM] File is world-writable
+    File: test_basic.exe
+
+  [MEDIUM] File is world-writable
+    File: test_basic_static.exe
+
+  [MEDIUM] File is world-writable
+    File: test_gtest_simple.cpp
+
+  [MEDIUM] File is world-writable
+    File: test_perf.exe
+
+  [MEDIUM] File is world-writable
+    File: test_performance.cpp
+
+  [MEDIUM] File is world-writable
+    File: test_unit.exe
+
+  [MEDIUM] File is world-writable
+    File: build\logger.o
+
+  [MEDIUM] File is world-writable
+    File: build\types.o
+
+  [MEDIUM] File is world-writable
+    File: include\app\config_manager.h
+
+  [MEDIUM] File is world-writable
+    File: include\app\export_manager.h
+
+  [MEDIUM] File is world-writable
+    File: include\app\search_manager.h
+
+  [MEDIUM] File is world-writable
+    File: include\core\logger.h
+
+  [MEDIUM] File is world-writable
+    File: include\core\types.h
+
+  [MEDIUM] File is world-writable
+    File: include\engine\file_watcher.h
+
+  [MEDIUM] File is world-writable
+    File: include\engine\index_manager.h
+
+  [MEDIUM] File is world-writable
+    File: include\engine\search_engine.h
+
+  [MEDIUM] File is world-writable
+    File: include\storage\cache_manager.h
+
+  [MEDIUM] File is world-writable
+    File: include\storage\memory_index.h
+
+  [MEDIUM] File is world-writable
+    File: include\storage\sqlite_database.h
+
+  [MEDIUM] File is world-writable
+    File: include\utils\thread_safe_queue.h
+
+  [MEDIUM] File is world-writable
+    File: scripts\build.py
+
+  [MEDIUM] File is world-writable
+    File: scripts\security_scan.py
+
+  [MEDIUM] File is world-writable
+    File: src\main.cpp
+
+  [MEDIUM] File is world-writable
+    File: src\core\logger.cpp
+
+  [MEDIUM] File is world-writable
+    File: src\core\types.cpp
+
+  [MEDIUM] File is world-writable
+    File: tests\CMakeLists.txt
+
+  [MEDIUM] File is world-writable
+    File: tests\integration_test_full_workflow.cpp
+
+  [MEDIUM] File is world-writable
+    File: tests\test_logger.cpp
+
+  [MEDIUM] File is world-writable
+    File: tests\test_main.cpp
+
+  [MEDIUM] File is world-writable
+    File: tests\test_types.cpp
